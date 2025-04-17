@@ -1,0 +1,23 @@
+
+
+
+
+main{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #313131;
+}
+#img_main{
+    width: 36%;
+    height: 36%;
+    background-color: #4d4d4d;
+}
+#infos{
+    width: 36%;
+    height: 36%;
+    background-color: #4d4d4d;
+}
