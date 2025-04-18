@@ -1,57 +1,60 @@
-
-
-
-header{
+header {
     width: 100%;
     height: 16%;
-    background-color: #808080;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 
-#logo_profission{
+#logo_profission {
     width: 45%;
     height: 100%;
-    background-color: #80808054;
     display: flex;
     flex-direction: center;
     justify-content: start;
 }
-#logo{
+
+#logo {
     width: 16%;
     height: 60%;
-    background-color: #1a1a1a54;;
+    
+    
 }
 
-#img{
+#img {
     width: 100%;
     height: 50%;
-    background-color:  #4d4d4d;
+
 
 }
-#student{
+
+#student {
     font-size: 2vw;
     margin: 0;
-    background-color: #27272791;
+    
 }
-#button_hearder{
-    width: 36%;
+
+#button_hearder {
+    width: 32%;
     height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #80808054;
+
+    
 }
 
-.button_hearder{
+.button_hearder {
     width: 24%;
     height: 24%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #42424254;
+    background: linear-gradient(180deg,#0000ff 23%, #0059ff 100%);
+    border-radius: 20% 40%;
+   
+    
 }

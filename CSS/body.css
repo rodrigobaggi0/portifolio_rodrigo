@@ -1,11 +1,9 @@
-
-
-
-
-body{
+body {
     width: 100vw;
     height: 100vh;
-    background-color: #656565;
     margin: 0;
     padding: 0;
+    background-image: url(/img/pag1.png);
+    background-size: cover;
+    background-position: center;
 }
