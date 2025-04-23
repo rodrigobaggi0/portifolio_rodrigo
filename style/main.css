@@ -9,13 +9,16 @@ main {
 
 #img_main {
     width: 36%;
-    height: 36%;
-    background-color: #4d4d4d;
+    height: 86%;
+
+    background-image: url(/img/r34.png);
+    background-size: cover;
+    background-position-x: 20%;
 }
 
 #infos {
     width: 36%;
     height: 36%;
-    background-color: #4d4d4d;
+    color: var(--whithe);
     
 }

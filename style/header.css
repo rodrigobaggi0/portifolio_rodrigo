@@ -8,31 +8,42 @@ header {
 }
 
 #logo_profission {
-    width: 45%;
+    width: 39%;
     height: 100%;
     display: flex;
     flex-direction: center;
     justify-content: start;
+
+    background: linear-gradient(to right, #FBFBFB 0%, #244FCF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* necessário para compatibilidade */
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    /* necessário para WebKit/Blink (Chrome, Safari, Edge) */
+
 }
 
 #logo {
-    width: 16%;
+    width: 12%;
     height: 60%;
-    
-    
+    background-image: url(/img/profile.png);
+    background-size: cover;
+    background-position: center;
+
 }
 
 #img {
     width: 100%;
     height: 50%;
 
-
 }
 
 #student {
     font-size: 2vw;
     margin: 0;
-    
+
 }
 
 #button_hearder {
@@ -43,7 +54,8 @@ header {
     align-items: center;
     justify-content: space-between;
 
-    
+
+
 }
 
 .button_hearder {
@@ -53,8 +65,9 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(180deg,#0000ff 23%, #0059ff 100%);
+    background: linear-gradient(180deg, #0000ff 23%, #0059ff 100%);
     border-radius: 10% 40%;
-   
-    
+    color: var(--whithe);
+
+
 }

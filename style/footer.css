@@ -14,8 +14,9 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #80808054;;
+
     justify-content: space-evenly;
-    background: linear-gradient(180deg,#0000ff 23%, #0059ff 100%);
+    background: var(--footer_botton);
+    color: var(--whithe);
 
 }
