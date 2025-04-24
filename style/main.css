@@ -13,12 +13,18 @@ main {
 
     background-image: url(/img/r34.png);
     background-size: cover;
-    background-position-x: 20%;
+    background-position-x: 19%;
+
 }
 
 #infos {
     width: 36%;
     height: 36%;
-    color: var(--whithe);
+    font-family: var(--fontP);
+    background: linear-gradient(to right, #FBFBFB 0%, #244FCF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
     
 }

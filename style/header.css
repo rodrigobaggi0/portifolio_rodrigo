@@ -11,18 +11,15 @@ header {
     width: 39%;
     height: 100%;
     display: flex;
-    flex-direction: center;
-    justify-content: start;
-
-    background: linear-gradient(to right, #FBFBFB 0%, #244FCF 100%);
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(to right, #FBFBFB 0%, #441daf 100%);
     background-clip: text;
     -webkit-background-clip: text;
-    /* necessário para compatibilidade */
-
     color: transparent;
     -webkit-text-fill-color: transparent;
-    /* necessário para WebKit/Blink (Chrome, Safari, Edge) */
-
+    font-family: var(--fontP);  
+    
 }
 
 #logo {
@@ -43,7 +40,6 @@ header {
 #student {
     font-size: 2vw;
     margin: 0;
-
 }
 
 #button_hearder {
@@ -52,10 +48,12 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;    
+}
 
-
-
+.button_hearder i {
+    color: var(--whithe);
+    font-size: 2vh;
 }
 
 .button_hearder {
@@ -66,8 +64,6 @@ header {
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(180deg, #0000ff 23%, #0059ff 100%);
-    border-radius: 10% 40%;
     color: var(--whithe);
-
-
+    font-family: var(--fontP);
 }

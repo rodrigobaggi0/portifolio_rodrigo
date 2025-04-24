@@ -9,14 +9,18 @@ footer {
 }
 
 .button_footer {
-    width: 5%;
-    height: 24%;
+    width: 3%;
+    height: 30%;
     display: flex;
     flex-direction: row;
     align-items: center;
-
     justify-content: space-evenly;
     background: var(--footer_botton);
     color: var(--whithe);
+    font-size: 4vh;
 
+}
+.button_footer i{
+    color: var(--whithe);
+    font-size: 4vh;
 }
