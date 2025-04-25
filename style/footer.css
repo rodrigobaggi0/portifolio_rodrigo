@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    height: 16%;
+    height: 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -9,18 +9,22 @@ footer {
 }
 
 .button_footer {
-    width: 3%;
+    width: 20%;
     height: 30%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    background: var(--footer_botton);
-    color: var(--whithe);
-    font-size: 4vh;
 
 }
-.button_footer i{
-    color: var(--whithe);
-    font-size: 4vh;
+.button_instagram{
+    font-size: 5vh;
+
+}
+.button_github{
+    font-size: 5vh;
+    
+}
+.button_linkedin{
+    font-size: 5vh;
 }
