@@ -1,4 +1,241 @@
-/* header {
+   header {
+     width: 100%;
+     height: 16%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     padding: 0;
+   }
+
+   #logo-profission {
+     width: 39%;
+     height: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     background: linear-gradient(to right, #FBFBFB 0%, #441daf 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+     -webkit-text-fill-color: transparent;
+     font-family: var(--fontP);
+   }
+
+   #logo {
+     width: 12%;
+     height: 60%;
+     background-image: url(/img/profile.png);
+     background-size: cover;
+     background-position: center;
+   }
+
+   #student {
+     font-size: 2vw;
+     margin: 0;
+   }
+
+   #button-hearder {
+     width: 32%;
+     height: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+   }
+
+   /* BOTÃO DO UIVERSE ADAPTADO */
+   .button-container {
+     position: relative;
+     margin: 0 0.5em;
+   }
+
+   .button-border {
+     padding: 0.32vh;
+     inset: 0;
+     background: #00e1ff;
+     clip-path: path("M 90 0 C 121 0 126 5 126 33 C 126 61 121 66 90 66 L 33 66 C 5 66 0 61 0 33 C 0 5 5 0 33 0 Z");
+   }
+
+   .button {
+     justify-content: center;
+     align-items: center;
+     border: none;
+     clip-path: path("M 90 0 C 115 0 120 5 120 30 C 120 55 115 60 90 60 L 30 60 C 5 60 0 55 0 30 C 0 5 5 0 30 0 Z");
+     width: 6.27vw;
+     height: 6.5vh;
+     background: #000000;
+     display: flex;
+     flex-direction: row;
+     gap: 0.5em;
+     color: #fff;
+     overflow: hidden;
+     font-family: var(--fontP);
+
+   }
+
+   .real-button {
+     position: absolute;
+     width: 6.27vw;
+     height: 6.5vh;
+     z-index: 1;
+     outline: none;
+     border: none;
+     border-radius: 1.84vh;
+     cursor: pointer;
+     opacity: 0;
+   }
+
+   .spin {
+     position: absolute;
+     inset: 0;
+     z-index: -2;
+     opacity: 0.5;
+     overflow: hidden;
+     transition: 0.3s;
+   }
+
+   .real-button:active~div .spin {
+     opacity: 1;
+   }
+
+   .spin-blur {
+     filter: blur(2em) url(#unopaq);
+   }
+
+   .spin-intense {
+     inset: -0.125em;
+     filter: blur(0.25em) url(#unopaq2);
+     border-radius: 0.75em;
+   }
+
+   .spin-inside {
+     inset: -2px;
+     border-radius: inherit;
+     filter: blur(2px) url(#unopaq3);
+     z-index: 0;
+   }
+
+   .spin::before {
+     content: "";
+     position: absolute;
+     inset: -150%;
+     animation:
+       speen 2s cubic-bezier(0.56, 0.15, 0.28, 0.86) infinite,
+       woah 2s infinite;
+     animation-play-state: paused;
+   }
+
+   .real-button:hover~div .spin::before {
+     animation-play-state: running;
+   }
+
+   .spin-blur::before {
+     background: linear-gradient(90deg, #4c00ff 30%, #00000000 50%, #4c00ff 70%);
+
+   }
+
+   .spin-intense::before {
+     background: linear-gradient(90deg, #000000 20%, #00000000 45% 55%, #1900ff 80%);
+   }
+
+   .spin-inside::before {
+     background: linear-gradient(180deg, #ae00ff 30%, #00000000 45% 55%, #4400ff 70%);
+     animation-play-state: running;
+   }
+
+   @keyframes speen {
+     0% {
+       rotate: 10deg;
+     }
+
+     50% {
+       rotate: 190deg;
+     }
+
+     to {
+       rotate: 370deg;
+     }
+   }
+
+   @keyframes woah {
+
+     0%,
+     to {
+       scale: 1;
+     }
+
+     50% {
+       scale: 0.75;
+     }
+   }
+
+   @media (max-width: 820px) {}
+
+   @media (max-width: 480px) {
+     header {
+       background-color: red;
+       flex-direction: column;       
+     }
+     #logo-profission{
+      width: 100%;
+          
+     }
+     #logo{
+      width: 18%;    
+      height: 100%;      
+     }
+     #student{
+      font-size: 2vh;
+     }
+     #button-hearder{
+      padding: 0.32vh;
+      
+
+
+     }
+
+    }
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* header {
     width: 100%;
     height: 16%;
     display: flex;
@@ -19,6 +256,11 @@
     color: transparent;
     -webkit-text-fill-color: transparent;
     font-family: var(--fontP);  
+    
+    :root {
+    --fontP: 'Poppins', sans-serif;
+    --whithe: #ffffff;
+  }
     
 }
 
@@ -68,175 +310,10 @@
     font-family: var(--fontP);
 } */
 
-
-/* VARIÁVEIS */
-:root {
-    --fontP: 'Poppins', sans-serif;
-    --whithe: #ffffff;
-  }
-
-  /* ESTILOS DO HEADER */
-  header {
-    width: 100%;
-    height: 16%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0;
-  }
-
-  #logo_profission {
-    width: 39%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background: linear-gradient(to right, #FBFBFB 0%, #441daf 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    font-family: var(--fontP);  
-  }
-
-  #logo {
-    width: 12%;
-    height: 60%;
-    background-image: url(/img/profile.png);
-    background-size: cover;
-    background-position: center;
-  }
-
-  #student {
-    font-size: 2vw;
-    margin: 0;
-  }
-
-  #button_hearder {
-    width: 32%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  /* BOTÃO DO UIVERSE ADAPTADO */
-  .button-container {
-    position: relative;
-    margin: 0 0.5em;
-  }
-
-  .button-border {
-    padding: 3px;
-    inset: 0;
-    background: #00000055;
-    border-radius: 0.875em;
-    clip-path: path("M 90 0 C 121 0 126 5 126 33 C 126 61 121 66 90 66 L 33 66 C 5 66 0 61 0 33 C 0 5 5 0 33 0 Z");
-  }
-
-  .button {
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 0.875em;
-    clip-path: path("M 90 0 C 115 0 120 5 120 30 C 120 55 115 60 90 60 L 30 60 C 5 60 0 55 0 30 C 0 5 5 0 30 0 Z");
-    width: 120px;
-    height: 60px;
-    background: #111215;
-    display: flex;
-    flex-direction: row;
-    gap: 0.5em;
-    color: #fff;
-    overflow: hidden;
-    font-family: var(--fontP);
-    font-size: 0.9em;
-  }
-
-  .real-button {
-    position: absolute;
-    width: 120px;
-    height: 60px;
-    z-index: 1;
-    outline: none;
-    border: none;
-    border-radius: 17px;
-    cursor: pointer;
-    opacity: 0;
-  }
-
-  /* .backdrop {
+   /* .backdrop {
     position: absolute;
     inset: -9900%;
     background: radial-gradient(circle at 50% 50%, #0000 0, #0000 20%, #111111aa 50%);
     background-size: 3px 3px;
     z-index: -1;
   } */
-
-  .spin {
-    position: absolute;
-    inset: 0;
-    z-index: -2;
-    opacity: 0.5;
-    overflow: hidden;
-    transition: 0.3s;
-  }
-
-  .real-button:active ~ div .spin {
-    opacity: 1;
-  }
-
-  .spin-blur {
-    filter: blur(2em) url(#unopaq);
-  }
-
-  .spin-intense {
-    inset: -0.125em;
-    filter: blur(0.25em) url(#unopaq2);
-    border-radius: 0.75em;
-  }
-
-  .spin-inside {
-    inset: -2px;
-    border-radius: inherit;
-    filter: blur(2px) url(#unopaq3);
-    z-index: 0;
-  }
-
-  .spin::before {
-    content: "";
-    position: absolute;
-    inset: -150%;
-    animation:
-      speen 2s cubic-bezier(0.56, 0.15, 0.28, 0.86) infinite,
-      woah 2s infinite;
-    animation-play-state: running;
-  }
-
-  .real-button:hover ~ div .spin::before {
-    animation-play-state: running;
-  }
-
-  .spin-blur::before {
-    background: linear-gradient(90deg, #441daf 30%, #0000 50%, #00c3ff 70%);
-  }
-
-  .spin-intense::before {
-    background: linear-gradient(90deg, #0000ff 20%, #0000 45% 55%, #0044ff 80%);
-  }
-
-  .spin-inside::before {
-    background: linear-gradient(90deg, #0059ff 30%, #0000 45% 55%, #e100ff 70%);
-  }
-
-  @keyframes speen {
-    0% { rotate: 10deg; }
-    50% { rotate: 190deg; }
-    to { rotate: 370deg; }
-  }
-
-  @keyframes woah {
-    0%, to { scale: 1; }
-    50% { scale: 0.75; }
-  }

@@ -7,7 +7,7 @@ main {
     justify-content: space-evenly;
 }
 
-#img_main {
+#img-main {
     width: 36%;
     height: 86%;
 
@@ -32,12 +32,12 @@ main {
     
 }
 
-#first_name{
+#first-name{
     font-size: 10vh;
     margin: 0;
     
 }
-#last_name{
+#last-name{
     font-size: 10vh;
     margin: 0;
 }
