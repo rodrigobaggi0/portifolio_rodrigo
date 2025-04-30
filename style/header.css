@@ -116,7 +116,7 @@
    }
 
    .spin::before {
-     content: "";
+     content: "open-quote";
      position: absolute;
      inset: -150%;
      animation:
@@ -140,7 +140,7 @@
 
    .spin-inside::before {
      background: linear-gradient(180deg, #ae00ff 30%, #00000000 45% 55%, #4400ff 70%);
-     animation-play-state: running;
+     
    }
 
    @keyframes speen {
