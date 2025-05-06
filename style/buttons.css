@@ -1,0 +1,85 @@
+#button-hearder {
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .button-container {
+    position: relative;
+    margin: 0 0.5em;
+  }
+  .button-border {
+    padding: 0.32vh;
+    inset: 0;
+    background: #00e1ff;
+    clip-path: path("M 90 0 C 121 0 126 5 126 33 C 126 61 121 66 90 66 L 33 66 C 5 66 0 61 0 33 C 0 5 5 0 33 0 Z");
+  }
+  .button {
+    justify-content: center;
+    align-items: center;
+    border: none;
+    clip-path: path("M 90 0 C 115 0 120 5 120 30 C 120 55 115 60 90 60 L 30 60 C 5 60 0 55 0 30 C 0 5 5 0 30 0 Z");
+    width: 6.27vw;
+    height: 6.5vh;
+    background: #000000;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    color: #fff;
+    overflow: hidden;
+    font-family: var(--fontP);
+  }
+  .real-button {
+    position: absolute;
+    width: 6.27vw;
+    height: 6.5vh;
+    z-index: 1;
+    outline: none;
+    border: none;
+    border-radius: 1.84vh;
+    cursor: pointer;
+    opacity: 0;
+  }
+  .real-button:active~div .spin {
+    opacity: 1;
+  }
+
+  /* Tablet */
+  @media (max-width: 820px) {
+    #button-hearder {
+      width: 20%;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2vh;
+    }
+    .button-border {
+      padding: 0.32vh;
+      inset: 0;
+    }
+    .button {
+      justify-content: space-around;
+      align-items: center;
+      width: 20vw;
+    }
+  }
+
+  /* Celular */
+  @media (max-width: 480px) {
+    #button-hearder {
+      width: 45%;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2vh;
+    }
+    .button-border {
+      padding: 0.32vh;
+      inset: 0;
+    }
+    .button {
+      justify-content: space-around;
+      align-items: center;
+      width: 25vw;
+    }
+  }
