@@ -1,4 +1,4 @@
-{
+document.addEventListener('DOMContentLoaded',()=>{
 let div = document.createElement('div')
 div_logo_profission.id = 'logo-profission'
 
@@ -15,11 +15,10 @@ const btns_text = ["HOME", "PROJETOS", "FORMAÇÃO"]
 
 for (let i = 0; i < 3; i++) {
     let div = document.createElement('div')
-    div.button_header = 'button-hearder'
+    div.id = 'button-hearder'
     div.className = 'button-container'
-    div.className = 'spin spin-blur'
 
 
 
 }
-}
+});
