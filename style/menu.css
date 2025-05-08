@@ -1,0 +1,25 @@
+#btn_menu{
+    position: absolute;
+    top: 8vh;
+    left: 97vw;
+    
+    z-index: 2;
+
+    width: 2vw;
+    height: 1vh;
+    background-color: black;
+    border: none;
+}
+
+#menu_container{
+    position: absolute;
+    top: 0;
+    left: 100vw;
+
+    z-index: 1;
+    
+    width: 30vw;
+    height: 100vh;
+    background-color: var(--primary_blue);
+   
+}

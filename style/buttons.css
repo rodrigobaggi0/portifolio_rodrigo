@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: row;
     gap: 0.5em;
-    color: #fff;
+    color: #f3f3f3;
     overflow: hidden;
     font-family: var(--fontP);
   }

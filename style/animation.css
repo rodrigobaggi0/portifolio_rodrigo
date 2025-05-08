@@ -40,7 +40,7 @@
     background: linear-gradient(90deg, #000000 20%, #00000000 45% 55%, #1900ff 80%);
   }
   .spin-inside::before {
-    background: linear-gradient(180deg, #ae00ff 30%, #00000000 45% 55%, #4400ff 70%);    
+    background: linear-gradient(180deg, #ae00ff 30%, #00000000 45% 55%, #4400ff 70%);        
   }
 
 
