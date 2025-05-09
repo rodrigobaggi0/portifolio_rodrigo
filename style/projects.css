@@ -4,4 +4,19 @@
 @import url(./animation.css);
 @import url(./menu.css);
 @import url(./header.css);
+@import url(./banner.css);
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/pag1.png);
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+
 
