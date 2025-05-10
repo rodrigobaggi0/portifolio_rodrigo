@@ -1,6 +1,6 @@
 #nav_banners {
     height: 40%;
-    width:100%;
+    width: 100%;
 
     margin: 2% 0 0;
 
@@ -23,9 +23,9 @@
     transition: all 0.2s ease-in-out;
 }
 .banner {
-    width: 94%;
+    width: 94vw;
     height: 100%;
-    margin: 0 3%;
+    margin: 0 3vw;
     background-color: var(--primary_blue)
 }
 .btn_banner{
@@ -39,9 +39,13 @@
     cursor: pointer;
     transition: all 0.1s ease-in-out;
 
-    background-color: rgb(0, 0, 0);
+    background-color: black
     
 }
 .btn_banner:hover{
+    transform: scale(1.2);
+}
+
+#btn_banner_1{
     transform: scale(1.2);
 }
