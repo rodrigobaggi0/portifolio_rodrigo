@@ -1,7 +1,22 @@
 export const cards_bd = [
-    {
-        nome: 'nome',
-        lenguages: 'js e html',
-        img: ''
-    }
-]
+    {nome: 'Plataforma de Cursos', lenguages: 'R$ 3.200,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},    
+    {nome: 'E-commerce de Roupas', lenguages: 'R$ 2.500,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},  
+    {nome: 'Dashboard Administrativo', lenguages: 'R$ 1.800,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},
+    {nome: 'Gerenciador Financeiro', lenguages: 'R$ 1.300,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},   
+    {nome: 'App de Receitas', lenguages: 'R$ 1.200,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},       
+    {nome: 'Sistema de Chat Online', lenguages: 'R$ 1.000,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},
+    {nome: 'Gestor de Tarefas', lenguages: 'R$ 950,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},
+    {nome: 'Painel de Notícias', lenguages: 'R$ 900,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},      
+    {nome: 'Blog Pessoal', lenguages: 'R$ 850,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},               
+    {nome: 'App de Clima', lenguages: 'R$ 700,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},  
+    {nome: 'Conversor de Moeda', lenguages: 'R$ 600,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},      
+    {nome: 'Calculadora Científica', lenguages: 'R$ 550,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},
+    {nome: 'Landing Page de Produto', lenguages: 'R$ 500,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},
+    {nome: 'Jogo da Velha Online', lenguages: 'R$ 450,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},
+    {nome: 'Site de Portfólio', lenguages: 'R$ 350,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'}, 
+    {nome: 'Relógio Mundial', lenguages: 'R$ 300,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},
+    {nome: 'Gerador de QR Code', lenguages: 'R$ 3.200,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},
+    {nome: 'Painel Administrativo Responsivo', lenguages: 'R$ 3.200,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},
+    {nome: 'Landing Page de Vendas', lenguages: 'R$ 2.200,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'}, 
+    {nome: 'Sistema de Controle de Estoque', lenguages: 'R$ 3.200,00', img: 'https://wallpapers.com/images/high/1080p-pictures-dz6dndeqrwd3c40u.webp'},  
+];
