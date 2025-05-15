@@ -1,7 +1,7 @@
-import { createCards } from "../../cards.js";
+import { createCards } from "../../view/js/projects/cards.js";
 
-import { switchMenu } from "../../menu.js";
-import { switchBanner } from "./banner.js";
+import { switchMenu } from "../../controller/menu.js";
+import { switchBanner } from "../../controller/projects/banner.js";
 import { createheader } from '../../view/js/header.js';
 
 

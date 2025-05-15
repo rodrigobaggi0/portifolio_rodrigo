@@ -1,0 +1,32 @@
+#cards_f{
+    width: 100vw;
+    
+    margin: 5vh 0 0;
+    display: grid;
+    grid-template-columns: repeat(5, 14vw);
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding: 0 8vw;
+    background-color: #333;
+
+  
+}
+
+
+/* Estilo individual de cada cartão */
+.card_f {
+    background-color: #fff;
+    border-radius: 1vw;
+    overflow: hidden;
+    box-shadow: 0 0.4vh 0.8vh rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 20vw;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* .card:hover {
+    transform: translateY(-1vh);
+    box-shadow: 0 0.6vh 1.2vh rgba(0, 0, 0, 0.15);
+} */

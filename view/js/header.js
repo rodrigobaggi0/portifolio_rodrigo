@@ -17,7 +17,7 @@ export function createheader(){
 
 
     const btns_text = ["HOME", "PROJETOS", "FORMAÇÃO"]
-    const links = ['./index.html', './projects.html', './index.html']
+    const links = ['./index.html', './projects.html', './formation.html']
     // btns_text[i]
 
     let div_buttons = document.createElement('div')

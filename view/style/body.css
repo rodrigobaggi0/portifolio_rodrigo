@@ -3,7 +3,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url(/img/pag1.png);
+    background-image: url(./../../assets/img/pag1.png);
     background-size: cover;
     background-position: center;
     overflow-x: hidden;

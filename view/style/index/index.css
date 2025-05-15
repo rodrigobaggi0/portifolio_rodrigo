@@ -1,9 +1,9 @@
-@import url(./body.css);
-@import url(./header.css);
-@import url(./main.css);
-@import url(./footer.css);
-@import url(./root.css);
-@import url(./menu.css);
+@import url(./../../style/body.css);
+@import url(./../../style/header.css);
+@import url(./../../style/index/main.css);
+@import url(./../footer.css);
+@import url(./../root.css);
+@import url(./../menu.css);
 
 
 

@@ -11,7 +11,7 @@ main {
 #img-main {
   width: 36%;
   height: 86%;
-  background-image: url(/img/r34.png);
+  background-image: url(./../../../assets/img/r34.png);
   background-size: cover;
   background-position-x: 19%;
 }
