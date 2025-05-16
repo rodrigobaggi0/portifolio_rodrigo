@@ -4,7 +4,7 @@
     margin: 5vh 0 0;
     display: grid;
     grid-template-columns: repeat(2, 30vw);
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 2vw;
     padding: 0 8vw;
@@ -18,6 +18,7 @@
     border-radius: 0.5vw; 
     border: 0.3vw solid #441daf; 
     color: #ffffff;
+    
 
     /* Efeito 3D com sombras */
     box-shadow:

@@ -2,7 +2,7 @@ import { cards_fbd } from '../../../model/cards_fbd.js';
 
 export function createCardsF(){
     
- let cards_section = document.getElementById('card_f');
+ let cards_section = document.getElementById('cards_f');
 
     for (let i = 0; i < cards_fbd.length; i++) {
       
